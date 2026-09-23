@@ -32,7 +32,7 @@ The app opens an interactive dashboard in your browser where you can explore EDA
 | **Columns** | 34 (33 predictors + 1 target) |
 | **Target** | `Status` — 0 = No Default, 1 = Default |
 | **Class Balance** | 75.4% No Default / 24.6% Default |
-| **Source** | [Kaggle — Loan Default Dataset](https://www.kaggle.com/datasets/nikhil1e9/loan-default) |
+| **Source** | [Kaggle — Loan Default Dataset](https://www.kaggle.com/datasets/yasserh/loan-default-dataset) |
 
 Key predictors: `Credit_Score`, `income`, `loan_amount`, `LTV`, `rate_of_interest`, `dtir1`, `Region`, `Gender`, `age`, `credit_type`
 
@@ -116,7 +116,7 @@ IBM_Project/
 ### Step 3 — Run the application
 
 ```bash
-python AamirKhan_BankLoanDefault.py
+python MD_AamirKhan_BankLoanDefaultPrediction.py
 ```
 
 ### Step 4 — Open the dashboard
@@ -133,9 +133,9 @@ The terminal will print all 7 pipeline stage confirmations, then display the URL
 # Install dependencies
 !pip install dash plotly pandas numpy scikit-learn
 
-# Upload Loan_Default.csv and AamirKhan_BankLoanDefault.py to /content/
+# Upload Loan_Default.csv and MD_AamirKhan_BankLoanDefaultPrediction.py to /content/
 # Then run:
-!python AamirKhan_BankLoanDefault.py
+!python MD_AamirKhan_BankLoanDefaultPrediction.py
 ```
 
 Use Colab's port forwarding or `ngrok` to access the dashboard URL.
@@ -190,7 +190,7 @@ Use Colab's port forwarding or `ngrok` to access the dashboard URL.
 
 ## Author
 
-**Aamir Khan**
+**MD Aamir Khan**
 Intern — IBM SkillsBuild Data Analytics with AI Academic Internship
 
 ---
